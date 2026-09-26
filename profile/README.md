@@ -27,6 +27,7 @@ ecosystem.
 | Repo | What it is |
 |------|------------|
 | [**gfx**](https://github.com/go-gfx/gfx) | the library: `geometry` · `color` · `raster` · `resample` · `codec` · `vector` in one CGO=0 module |
+| [**qr**](https://github.com/go-gfx/qr) | a QR Code encoder (ISO/IEC 18004) that returns a **module matrix**, not a picture: the caller paints it as a widget, an SVG or a bitmap. The encoder imports nothing outside the standard library; an optional `Image`/`PNG` helper uses only `image` and `image/png` |
 | [**docs**](https://github.com/go-gfx/docs) | MkDocs Material documentation, served at [/docs/](https://go-gfx.github.io/docs/) |
 | [**go-gfx.github.io**](https://github.com/go-gfx/go-gfx.github.io) | the Hugo landing page |
 | [**brand**](https://github.com/go-gfx/brand) | brand assets — logos & icons |
